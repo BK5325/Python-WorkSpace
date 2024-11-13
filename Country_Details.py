@@ -1,0 +1,12 @@
+from countryinfo import CountryInfo
+country =CountryInfo(input("Enter the Country Name :"))
+print ("Country Name :",country.name())
+print ("Capital :",country.capital())
+print ("Population :",country.population())
+print ("Area :",country.area())
+print ("Region :",country.region())
+print ("Subregion :",country.subregion())
+print ("Nationality :",country.demonym())
+print ("Currency :",country.currencies())
+print ("Languages :",country.languages())
+print ("Country Borders :",country.borders())
